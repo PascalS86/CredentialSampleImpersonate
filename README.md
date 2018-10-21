@@ -11,7 +11,7 @@ Language is CSharp
 ## Caller Project
 Web.Config needs the following Tag:
 <system.web>
-  <identity impersonate="true"></identity>
+  &lt;identity impersonate="true" /&gt;
 </system.web>
 
 The follwing code snippet does the job:
